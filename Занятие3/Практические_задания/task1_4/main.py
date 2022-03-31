@@ -6,5 +6,6 @@ def square_circle(r):
 
 
 if __name__ == "__main__":
-    square = square_circle(5)
+    input_radius = int(input("Ввести радиус круга: "))
+    square = square_circle(input_radius)
     print(square)

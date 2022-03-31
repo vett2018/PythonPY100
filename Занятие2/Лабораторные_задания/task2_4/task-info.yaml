@@ -19,16 +19,16 @@ files:
   visible: true
   placeholders:
   - offset: 75
-    length: 42
+    length: 133
     placeholder_text: '...  # TODO чему равно начальное смещение?'
     initial_state:
       length: 42
       offset: 75
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 5
-  - offset: 122
+  - offset: 213
     length: 63
     placeholder_text: '# TODO как использовать начальное смещение в команде enumerate?'
     initial_state:
@@ -36,7 +36,7 @@ files:
       offset: 122
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       for offset, char in enumerate(phrase, start=initial_offset):
               print(" " * offset, char)
@@ -49,5 +49,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Thu, 31 Mar 2022 17:24:31 UTC
 record: -1

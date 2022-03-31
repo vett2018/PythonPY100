@@ -19,19 +19,19 @@ files:
       offset: 46
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: 4
   - offset: 89
-    length: 67
+    length: 69
     placeholder_text: '...:  # TODO как получить последовательность чисел?'
     initial_state:
       length: 51
       offset: 91
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: 'range(1, count_stairs + 1):'
-  - offset: 170
+  - offset: 172
     length: 32
     placeholder_text: '(...)  # TODO печать ступени'
     initial_state:
@@ -39,7 +39,7 @@ files:
       offset: 156
     initialized_from_dependency: false
     selected: true
-    status: Failed
+    status: Solved
     encrypted_possible_answer: ("*" * i)
   text: |
     if __name__ == "__main__":
@@ -50,19 +50,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Incorrect
-  time: Thu, 24 Mar 2022 17:50:32 UTC
-  expected: |
-    *
-    **
-    ***
-    ****
-  actual: |
-    ***
-    ***
-    ***
-    ***
-    ***
+  message: Congratulations!
+  time: Thu, 31 Mar 2022 17:23:15 UTC
 record: -1

@@ -23,7 +23,7 @@ files:
       offset: 83
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: |-
       print(sum(tuple_))
       print(len(tuple_))
@@ -35,5 +35,20 @@ files:
 
     # TODO Каждое из значений печатать на отдельной строке
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Thu, 31 Mar 2022 17:12:07 UTC
+  expected: |
+    -6
+    20
+    -0.3
+    -10
+    10
+  actual: |
+    Сумма чисел в кортеже равно = -6
+    Колличество чисел в кортеже равно = 20
+    Среднее арифмитическое в кортеже равно = -0.3
+    Минимальное число в кортеже равно = -10
+    Максимальное число в кортеже равно = 10
 record: -1
