@@ -7,3 +7,11 @@ print("Колличество чисел в кортеже равно =", len(tu
 print("Среднее арифмитическое в кортеже равно =", sum(tuple_) / len(tuple_))
 print("Минимальное число в кортеже равно =", min(tuple_))
 print("Максимальное число в кортеже равно =", max(tuple_))
+
+"""
+print(sum(tuple_))
+print(len(tuple_))
+print(sum(tuple_) / len(tuple_))
+print(min(tuple_))
+print(max(tuple_))
+"""
