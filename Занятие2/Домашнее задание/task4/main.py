@@ -1,5 +1,7 @@
+
 if __name__ == "__main__":
-    list_ = [-1, 2, 3]
+    list_ = [-1, 2, 3, 10, 5, 6, 7, 0]
+    print(list_)
     max_ = 0
     for i in list_:
         if i > max_:
@@ -13,7 +15,7 @@ if __name__ == "__main__":
     print(list_)
     pass
 
-"""
+""" 
 if __name__ == "__main__":
     list_ = [-1, 2, 3, 10, 5, 6, 7, 0]
     max_ = 0
@@ -24,6 +26,8 @@ if __name__ == "__main__":
     print(list_)
     print("максимальный элемент в списке :", max_)
     print("индекс максимального элемента в списке: ", list_.index(max_))
+    max_index = list_.index(max_)
+    list_[0], list_[max_index] = list_[max_index], list_[0]
 
     print(list_)
 """
